@@ -1,0 +1,22 @@
+{
+  "name": "lighterbot",
+  "version": "1.0.0",
+  "description": "Telegram bot to monitor new assets on zklighter",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["telegram", "bot", "crypto", "zklighter"],
+  "author": "",
+  "license": "MIT"
+}
